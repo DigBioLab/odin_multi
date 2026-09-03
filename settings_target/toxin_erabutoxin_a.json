@@ -1,0 +1,6 @@
+{
+  "binder_name": "toxin_erabutoxin_a",
+  "starting_pdb": "../targets/erabutoxin_a_5ebx.pdb",
+  "chains": "A",
+  "target_hotspot_residues": null
+}

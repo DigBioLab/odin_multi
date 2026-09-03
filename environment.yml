@@ -1,0 +1,35 @@
+ name: Odin-Multi
+ channels:
+   - conda-forge
+   - nvidia
+   - https://conda.graylab.jhu.edu
+
+ dependencies:
+   - python=3.10
+   - biopython
+   - chex
+   - cuda-nvcc
+   - cudnn
+   - dm-haiku
+   - dm-tree
+   - ffmpeg
+   - "flax<0.10.0"
+   - fsspec
+   - immutabledict
+   - "jax<0.6.0"
+   - jaxlib
+   - joblib
+   - jupyter
+   - libgfortran5
+   - matplotlib
+   - ml-collections
+   - "numpy<2.0.0"
+   - optax
+   - pandas
+   - pdbfixer
+   - pip
+   - pyrosetta
+   - py3dmol
+   - scipy
+   - seaborn
+   - tqdm

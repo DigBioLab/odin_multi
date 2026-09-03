@@ -1,0 +1,30 @@
+{
+  "lengths": [
+    80,
+    80
+  ],
+  "use_multimer_design": true,
+  "af_params_dir": "",
+  "num_recycles_design": 1,
+  "sample_models": true,
+  "ensemble_discrete_stages": false,
+  "design_algorithm": "3stage_ste",
+  "soft_iterations": 75,
+  "temporary_iterations": 45,
+  "hard_iterations": 20,
+  "greedy_iterations": 15,
+  "greedy_percentage": 5,
+  "use_early_stopping": false,
+  "optimise_beta": true,
+  "optimise_beta_extra_soft": 0,
+  "optimise_beta_extra_temp": 0,
+  "optimise_beta_recycles_design": 3,
+  "mpnn_weights": "original",
+  "mpnn_use_ligand_context": false,
+  "random_helicity": false,
+  "dssp_path": "",
+  "save_design_animations": true,
+  "save_design_trajectory_plots": true,
+  "remove_unrelaxed_trajectory": true,
+  "omit_AAs": "C"
+}

@@ -1,0 +1,3 @@
+[submodule "ColabDesign"]
+	path = ColabDesign
+	url = https://github.com/DigBioLab/colabdesign-odin-multi.git

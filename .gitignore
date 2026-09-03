@@ -1,0 +1,62 @@
+# --- Secrets and credentials (never commit) ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+.netrc
+credentials
+credentials.*
+*_secret*
+
+# --- Large artifacts and archives ---
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.npy
+*.pt
+*.pth
+*.ckpt
+params/
+
+# --- Design run outputs ---
+# design_path defaults to ./outputs/<config-name>, so that tree is generated.
+outputs/
+# Ignore the per-run subdirectories at the repo root too, in case anyone
+# points design_path somewhere else inside the checkout.
+Trajectory/
+MPNN/
+Accepted/
+final_designs/
+trajectory_stats.csv
+mpnn_design_stats.csv
+final_design_stats.csv
+failure_csv.csv
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# --- Editors, tooling, agents ---
+.vscode
+.history/
+.DS_Store
+.qodo
+.claude/
+.cursor/
+.aider*
+CLAUDE.md
+AGENTS.md
+
+# --- Local scratch ---
+tmp/
+*.log
+*.diff
+data-gym-cache/
+compare_commits.sh
+notebook.md
+example/*.pdb
+settings_reevaluation/*.local.json

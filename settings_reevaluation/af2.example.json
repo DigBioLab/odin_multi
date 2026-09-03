@@ -1,0 +1,11 @@
+{
+  "params_dir": "../params",
+  "models": [0, 1],
+  "seeds": [0],
+  "num_recycles": 3,
+  "use_multimer": false,
+  "rm_target_seq": false,
+  "rm_target_sc": false,
+  "interface_metrics": false,
+  "interface_relax": true
+}

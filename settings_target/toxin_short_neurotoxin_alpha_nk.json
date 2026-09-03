@@ -1,0 +1,6 @@
+{
+  "binder_name": "toxin_short_neurotoxin_alpha_nk",
+  "starting_pdb": "../example/short_neurotoxin_alpha_nk.pdb",
+  "chains": "A",
+  "target_hotspot_residues": null
+}

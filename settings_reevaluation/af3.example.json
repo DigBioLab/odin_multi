@@ -1,0 +1,12 @@
+{
+  "python": "/path/to/af3/bin/python",
+  "run_alphafold": "/path/to/alphafold3/run_alphafold.py",
+  "model_dir": "/path/to/alphafold3/models",
+  "db_dir": "/path/to/alphafold3/databases",
+  "target_cache_dir": "/shared/path/odin_multi_af3_target_cache",
+  "seeds": [1],
+  "data_pipeline_flags": {},
+  "extra_flags": {},
+  "interface_metrics": false,
+  "interface_relax": true
+}

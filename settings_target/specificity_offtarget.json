@@ -1,0 +1,6 @@
+{
+  "binder_name": "specificity_offtarget",
+  "starting_pdb": "../example/target_d_trunc_101.pdb",
+  "chains": "A,B,C",
+  "target_hotspot_residues": "C1,C2,C3,C4,C5,C6,C7,C8,C9"
+}
